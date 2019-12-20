@@ -1,0 +1,173 @@
+<html>
+    <head>
+	    <title>Log In</title>
+		   <style>
+		         body
+				 {
+				   background-image:url('lp4.jpg');
+				   background-size:cover;
+				   background-repeat:no repeat;
+				 }
+				 #start
+				 {
+				   width:370;
+				   height:500;
+				   position:relative;
+				   margin-top:80px;
+				   background-color:black;
+				   opacity:0.3;
+				   margin-left:250px;
+				 }
+				 #start:hover
+				 {
+				   width:380;
+				   height:520;
+				   opacity:0.5;
+				 }
+				  h1
+				 {
+				   color:white;
+				   font-size:60px;
+				   position:relative:
+				   top:20px;
+				   text-align:center;
+				 }
+				 h1:hover
+				 {
+				   color:white;
+				   font-size:70px;
+				   opacity:0.9px;
+				 }
+				 input[type="text"] 
+                 {
+				   color:white;
+				   font-size:70:
+				   border:none
+                   border-bottom:solid;
+				   border-bottom-color:white;
+				   border-bottom-width:3px;
+				   width:270;
+				   height:50px;
+				   margin:40px 50px;
+				   text-align:center;
+				   background-color:transparent;
+				   transition:border 0.8s;
+				 }
+				  input[type="text"]:hover 
+                 {
+				   font-size:80:
+				   border:none
+                   width:280px;
+				   height:60px;
+				   text-align:center;
+				 }
+				  input[type="passward"] 
+                 {
+				   color:white;
+				   font-size:70:
+				   border:none
+                   border-bottom:solid;
+				   border-bottom-color:white;
+				   border-bottom-width:3px;
+				   width:270;
+				   height:50px;
+				   padding:0px 40px
+				   margin-top:0px;
+				   margin-left:50px;
+				   text-align:center;
+				   background-color:transparent;
+				   mouse:cursor;
+				 }
+				  input[type="passward"]:hover
+                 {
+				   color:white;
+				   font-size:80:
+				   width:280;
+				   height:60px;
+				   text-align:center;
+				 }
+				 #b1
+				 {
+				   width:130px;
+				   height:40px;
+				   background-color:green;
+				   margin-left:100px;
+				   margin-top:40px;
+				   border:groove white 5px;
+				   border-radius:20px;
+				 }
+				 #b1 a
+				 {
+				    text-decoration:none;
+					color:white;
+					font-size:30px;
+					text-align:center;
+					margin-left:30px;
+				 }
+				  #b1 a:hover
+				 {
+				    text-decoration:none;
+					color:white;
+					font-size:40px;
+					text-align:center;
+				}
+				 #b1:hover
+				 {
+				    width:130px;
+				    height:50px;
+				    background-color:green;
+				    border:groove white 5px;
+				 }
+				 #end
+				 {
+				    margin-left:20px;
+					margin-top:70px;
+				 }
+				 #end a
+				 {
+				    color:white;
+					font-size:20px;
+				 }
+		 </style>
+		 <script type="text/javascript" language="javascript">
+		 function dis()
+		 {
+		 	var x = prompt("old passward:")
+			var y = prompt("new passward:")
+			var z = prompt("confirm passward:")
+		 }
+		 function dis1()
+		 {
+		   var x = prompt("create a new passward")
+		   var x = prompt("confirm a passward")  
+   		   if(x==passward)
+		   {
+		     alert("passward confirmed"+x);
+		   }
+		   else
+		   {
+		     alert("wrong passward"+x)
+		   }
+		 }
+		 </script>
+	</head>
+	<body>
+	     <div id="cont">
+		 <form>
+		    <div id="start">
+			   <h1>Login</h1>
+			     <div id="name">
+			        <input type="text" placeholder="Username"><br>
+			        <input type="passward" placeholder="Passward"><br>
+				      <div id="b1">
+					     <a href="login.html">login</a>
+					  </div>
+				 </div>
+				 <div id="end">
+					<a href="reset.html" onclick="dis()">Reset Passward</a>&nbps &nbps
+					<a href="forget.html" onclick="dis1()">Forget passward</a>
+				  </div>
+             </form>
+		 </div>
+	</body>
+</html>
